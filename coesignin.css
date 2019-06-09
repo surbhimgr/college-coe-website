@@ -1,0 +1,36 @@
+#d1{
+	background-image: url(240_F_96517407_L7uJrR5xOIxHuJ7IQsfLkOFCbwkryefA.jpg);
+	 height: 6vw;
+	 padding: 0.2vw;
+	 color: white;
+	 position: fixed;
+	 top: 0px;
+	 width: 100%;
+}
+h1{
+	font-family: Trebuchet MS;
+	font-size: 3vw;
+}
+
+#table{
+	align-self: center;
+	margin-top: 12vw;
+	text-align: center;
+	padding: 2vw;
+	font-size: 2vw;
+	background-color: orange;
+	font-style: bold;
+	color: white;
+	font-family: Trebuchet MS;
+	border: dotted -2px orange;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#d2{
+	text-align: center;
+	text-align-last: center;
+	align-self: center;
+	align-content: center;
+	 margin: 30px auto;
+}

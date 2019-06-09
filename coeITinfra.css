@@ -1,0 +1,64 @@
+#d1{
+	background-image: url(240_F_96517407_L7uJrR5xOIxHuJ7IQsfLkOFCbwkryefA.jpg);
+	 height: 6vw;
+	 padding: 0.2vw;
+	 color: white;
+}
+h1{
+	font-family: Trebuchet MS;
+	font-size: 3vw;
+}
+#d3{
+
+	height: 100%;
+	color: rgb(60, 60, 60); 
+	font-family: sans-serif; 
+	padding-top: 10vw;
+	text-align: center;
+	background-color: #ffaf4d; 
+	font-size: 2vw;
+	font-family: Trebuchet MS;
+}
+#d31{
+	background-color: #ff8c00;
+}
+
+#d33{
+	background-color: #ff8c00;
+}
+#d31:hover {
+	background-color: white;
+	border-right: 4px solid grey;
+}
+
+#d32:hover {
+	background-color: white;
+	border-right: 4px solid grey;
+}
+
+#d33:hover {
+	background-color: white;
+	border-right: 4px solid grey;
+}
+.col-lg-9 {
+	padding: 10px;
+	text-align-last: center;
+	font-family: Didact Gothic;
+}
+
+#img1{
+	height: 45%;
+	width: 30%;
+}
+
+#img1:hover{
+	opacity: 0.5;
+}
+#img2{
+	height: 45%;
+	width: 30%;
+}
+
+#img2:hover{
+	opacity: 0.5;
+}

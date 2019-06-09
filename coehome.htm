@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="coehome.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>coehome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+</head>
+<body>
+	  	<div id="d1" class="container-fluidS">
+  	<h1><img src="7823801185-logo.png" height="50px" width="50px" style="margin-right: 10px;"><b>Center of Excellence</b> 
+      <a href="#" style="margin-left: 50vw; font-size:1.3vw; color: white;font-family: Corbel"><b>LogOut</b></a></h1>
+  </div>
+	<div id="d5"><b> Welcome student!!</b></div>
+	<div class="container">
+		<div class="row" style="margin-top: 50px;">
+
+			<div class="col-lg-4" id="p1">
+				<h1 id="d4"><b> Module : 1 </br>Launch Course</b></h1>
+				<a href="coestudentpage.htm"><img src="2nd year.jpg" class="img-responsive " id="i1" onmouseover="showInfo1()" onmouseleave="hideInfo1()">Beginner</a>
+			</div>
+
+			<div class="col-lg-4" id="p2" >
+				<h1 id="d2"> <b> Module : 2 </br>Launch Course</b></h1>
+				<img src="3rd year.jpg" class="img-responsive" id="i2" onmouseover="showInfo2()" onmouseleave="hideInfo2()">Intermediate
+			</div>
+
+			<div class="col-lg-4" id="p3">
+				<h1 id="d3"><b> Module : 3 </br>Launch Course</b></h1>
+				<img src="4th year.jpg" class="img-responsive" id="i3" onmouseover="showInfo3()" onmouseleave="hideInfo3()">Pro
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function showInfo1()
+		{
+			document.getElementById('i1').style.opacity='0.3';
+			document.getElementById('d4').style.display='block';
+
+		}
+
+		function hideInfo1()
+		{
+			document.getElementById('i1').style.opacity='1';
+			document.getElementById('d4').style.display='none';
+		}
+		function showInfo2()
+		{
+			document.getElementById('i2').style.opacity='0.3'
+			document.getElementById('d2').style.display='block';
+		}
+
+		function hideInfo2()
+		{
+			document.getElementById('i2').style.opacity='1'
+			document.getElementById('d2').style.display='none';
+		}
+		function showInfo3()
+		{
+			document.getElementById('i3').style.opacity='0.3'
+			document.getElementById('d3').style.display='block';
+		}
+
+		function hideInfo3()
+		{
+			document.getElementById('i3').style.opacity='1'
+			document.getElementById('d3').style.display='none';
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {}
+#d1 {
+  background-image: url(240_F_96517407_L7uJrR5xOIxHuJ7IQsfLkOFCbwkryefA.jpg);
+  height: 95px;
+  position: fixed;
+  color: white;
+  top: 0px;
+  padding: 1px;
+}
+h1 {
+  color: white;
+}
+.nav{
+  color: white; 
+} 
+
+#slideshow-wrapper {
+  top: 1000px;
+  width: 1250px;
+  height: 600px;
+  margin:30px auto;
+}
+
+#slideshow {
+  margin-top: 7vw;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#slideshow img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#about-wrapper {
+  height: 500px;
+  background-color: orange;
+  padding: 100px;
+  border-bottom: 2px white;
+}
+
+#about {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: white;
+  font-family: Trebuchet MS;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align-last: center;
+
+}
+h2 {
+  text-align-last: center;
+  font-family: Trebuchet MS;
+}
+
+#contact-wrapper{
+  border-top: 2px solid white;
+  background-color: orange;
+  padding: 50px;
+  height: 500px;
+}
+
+#contact-us {
+  background-color: white;
+  height: 30vw;
+  align-self: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  white-space: nowrap;
+
+} 
+
+#links {
+  background-color: white;
+  height: 60px;
+}
+
+#pop {
+  height: 200px;
+  width: 500px;
+  position: static;
+  color: black;
+  display: none;
+  margin-left: 1000px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  font-family: Trebuchet MS;
+}
+
+#links {
+  align-content: center;
+  align : center;
+  align-items: center;
+  text-align-last: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  align-self: center;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  align-self: center;
+}

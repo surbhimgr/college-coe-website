@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./coelogin.css"></link>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="./coelogin.js"></script>
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<title>login page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	<div id="d1" class="container-fluid">
+
+		<h1><img src="7823801185-logo.png" height="50px" width="50px" style="margin-right: 10px;">Center of Excellence</h1><a href="#" style="font-family: Trebuchet MS;color: white; font-size: 1.5vw">Home &nbsp</a> <a href="#about-wrapper" style="color: white; font-size: 1.5vw;font-family: Trebuchet MS;">About us &nbsp</a> <a href="#contact-wrapper" style="color: white; font-size: 1.5vw;font-family: Trebuchet MS;">Contact us</a> <a href="#" id="log" style="color: white; font-size: 1.5vw; margin-left: 69vw; margin-bottom: 5px;" onclick="popup()"><b>Login</b></a>		
+		<div id="pop" style="padding: 20px" onmouseleave="unpop()">
+		<table style="padding: 10px">
+			<tr>
+				<td>Id :</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button>Login</button></td>
+			</tr>
+			<tr>
+				<td><a href="coesignin.htm">Sign in</a></td>
+				<td colspan="2" style="text-align: right;"><a href="#">Forgot password</a></td>
+			</tr>
+		</table></div>
+	</div>
+
+	<div id="slideshow-wrapper">
+		<div id="slideshow" style="border:4px double white">
+			<img src="1.jpg"></img>
+			<img src="2.jpg"></img>
+			<img src="3.jpg"></img>
+			<img src="5.jpg"></img>
+			<img src="6.jpg"></img>
+			<img src="7.jpg"></img>
+		</div>
+	</div>
+	<div id="about-wrapper">
+		<div id="about">
+			<h2>About us</h2>
+			CDAC center of excellence (COE) is a team that provides leadership, best practices, research, support and/or training for computer science area. 
+		</br>
+			It is also aimed at revitalizing stalled initiatives. Here at CDAC CoE we collaborate with each other to pursue excellence in technology. Here we 
+		</br>have high performance computer labs which plays an important role in both scientific advancement and economic competitiveness.
+		</div>
+	</div>
+	<div id="contact-wrapper">
+		<div class="row">
+			<div id="contact-us" class="col-lg-6">
+				<h2>Contact us
+				</h2>
+			</div>
+			<div class="col-lg-6" style="width: 100%">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1529.2909849775765!2d85.73354401223237!3d20.22280254288359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bcb4b111050032b!2sC-DAC+Center+Of+Excellence%2CCVRCE+Bhubaneswar!5e0!3m2!1sen!2sin!4v1534245724807" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div id="links">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+	</div>
+	<script type="text/javascript">
+		function popup() {
+    document.getElementById('pop').style.display = "block";
+    document.getElementById('log').style.border = "dotted 1px white";
+	}
+	function unpop() {
+		document.getElementById('pop').style.display="none";
+	}
+	</script>
+</body>
+</html>
